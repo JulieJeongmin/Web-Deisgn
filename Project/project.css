@@ -1,0 +1,242 @@
+﻿
+#nav {
+	text-align: center;
+}
+.footer {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: small;
+	color: #666666;
+	background-color: #EFEFEF;
+}
+#allPage {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	width: 980px;
+	background-color: #EFEFEF;
+}
+#footer a {
+	color: #808080;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+#footer a:hover {
+	font-size: large;
+	color: #FFFFFF;
+	background-color: #FF5050;
+}
+.comment {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: x-large;
+	color: #666666;
+	vertical-align: auto;
+	text-align: left;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	position: relative;
+	right: auto;
+}
+.contents {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: medium;
+	color: #666666;
+	margin: 5px;
+	padding: 3px;
+}
+#header {
+	background-color: #FFFFFF;
+}
+
+#gallery {
+	padding: 5px;
+	width: 980px;
+	position: relative;
+	right: auto;
+	left: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+#gallery ul {
+	width: 980px;
+	list-style-type: none;
+}
+#gallery li {
+	border-radius: 3px;
+	padding: 0px;
+	display: inline;
+	float: left;
+}
+#gallery img {
+	border-style: none;
+}
+#gallery a {
+	font-style: italic;
+	color: #333;
+}
+#gallery span {
+	display: none;
+}
+#gallery a:hover span {
+	text-align: center;
+	position: absolute;
+	top: 250px;
+	left: 400px;
+	display: block;
+}
+.pictures {
+	border-style: 5;
+	border-width: 5px;
+	border-radius: 10px;
+}
+.auto-style1 {
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-decoration: underline;
+	color: #464646;
+	font-variant: small-caps;
+	text-transform: capitalize;
+}
+.back {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #464646;
+	font-size: medium;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.fieldLable {
+	padding: 3px;
+	margin: 5px;
+	vertical-align: central;
+	font-size: large;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+	font-family: "Trebuchet MS";
+	font-size: 35px;
+	color: #FF6600;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	font-weight: bold;
+	right: auto;
+	left: auto;
+	text-align: center;
+}
+#copyright {
+	font-size: x-small;
+}
+.fieldset {
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #808080;
+	margin-bottom: 10px;
+}
+
+.photo {
+	border-style: 5;
+	right: auto;
+	left: auto;
+	position: relative;
+	border-width: 5px;
+	border-color: #808080;
+	border-radius: 5px;
+	padding: 2px;
+	margin: 2px;
+}
+.photo2 {
+	border-style: 5;
+	float: right;
+	border-width: 5px;
+	border-color: #808080;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px;
+}
+.name {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #808080;
+	text-align: center;
+}
+.name2 {
+	padding: 5px;
+	margin: 5px;
+	text-align: left;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #808080;
+}
+.name1 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #808080;
+	text-align: right;
+}
+#photo a {
+	font-style: italic;
+	color: #333;
+}
+#photo a:hover span {
+	text-align: center;
+	position: absolute;
+	top: 700px;
+	display: block;
+}
+#photo span{
+	display: none;
+}
+.morph {
+  -webkit-transition: all 1.0s ease;
+     -moz-transition: all 1.0s ease;
+       -o-transition: all 1.0s ease;
+      -ms-transition: all 1.0s ease;
+          transition: all 1.0s ease;
+}
+ 
+.morph:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+.grow img {
+  height: 200px;
+  width: 200px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 250px;
+  height: 250px;
+}
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
